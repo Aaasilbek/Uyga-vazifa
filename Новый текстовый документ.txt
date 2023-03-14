@@ -1,0 +1,10 @@
+def polin(none):
+    l = len(none)
+    for i in range(1//2):
+        if none [i] != 'gap' [-1-i]:
+            return "Palindrom"
+        else:
+            return "Palindrom emas"
+
+print(polin('Uka'))
+
