@@ -1,0 +1,6 @@
+m = []
+n = input()
+for i in n:
+    if i.isdigit():
+        m.appened(int(i))
+print(sum(m))
